@@ -40,7 +40,6 @@ composer install
 Gerar a key do projeto Laravel
 ```sh
 php artisan key:generate
-php artisan storage:link
 ```
 
 
