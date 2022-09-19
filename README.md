@@ -53,7 +53,7 @@ API de categorias e filmes:
 https://www.learn-laravel.cf/
 
 Rotas:
-- /categories
-- /category/{id}
-- /movies
-- /movie/{id}
+- (get) /categories
+- (get) /category/{id}
+- (get) /movies
+- (get) /movie/{id}
