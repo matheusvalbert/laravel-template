@@ -72,5 +72,5 @@ Em caso de sucesso:
     "id":1,
     "name":"Zack and Miri Make a Porno",
     "category_id":6
-}"
+}
 ```
