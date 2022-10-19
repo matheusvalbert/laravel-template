@@ -66,7 +66,7 @@ Route::get('/requisicao', function () {
     dd($json);
 });
 ```
-Em caso de sucesso:
+Em caso de sucesso (em uma única linha):
 ```json
 {
     "id":1,
