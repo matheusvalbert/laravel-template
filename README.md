@@ -66,11 +66,11 @@ Route::get('/requisicao', function () {
     dd($json);
 });
 ```
-Em caso de sucesso (em uma única linha):
+Em caso de sucesso irá aparecer a mensagem (em linha única sem formatação):
 ```json
 {
-    "id":1,
-    "name":"Zack and Miri Make a Porno",
-    "category_id":6
+    "id": 1,
+    "name": "Zack and Miri Make a Porno",
+    "category_id": 6,
 }
 ```
