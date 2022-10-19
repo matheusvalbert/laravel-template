@@ -67,6 +67,6 @@ Route::get('/requisicao', function () {
 });
 ```
 Em caso de sucesso:
-```
+```json
 ^ "[{"id":1,"name":"Zack and Miri Make a Porno","category_id":6}]"
 ```
