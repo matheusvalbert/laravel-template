@@ -74,3 +74,8 @@ Em caso de sucesso irá aparecer a mensagem (em linha única sem formatação):
     "category_id": 6,
 }
 ```
+
+### Como criar tela de login no Laravel (ATENÇÃO LER DESCERIÇÃO DOS VIDEOS):
+
+- Criação login sem node: [https://youtu.be/V2s2toQNMG0](https://youtu.be/V2s2toQNMG0)
+- Criação login com node: [https://youtu.be/UhOYeYoK3Bc](https://youtu.be/UhOYeYoK3Bc)
