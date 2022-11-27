@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Webservice;
+
+class ViaCEP{
+
+    @param string $cep
+    @return array
+
+    public static consultarCEP($cep){
+        $url = "https://viacep.com.br/ws/{$cep}/json/";
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        $response = curl_exec($ch);
+        curl_close($ch);
+        return (array) json_decode($response, true);
+    }
+}
