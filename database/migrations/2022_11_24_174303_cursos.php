@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('minialunos');
             $table->integer('status');
             $table->string('img');
+            $table->sting('ndalunos');
             $table->rememberToken();
             $table->timestamps();
         });
