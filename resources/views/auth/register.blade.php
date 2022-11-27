@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="endereço" class="col-md-4 col-form-label text-md-end">{{ __('Endereço') }}</label>
+                            <label for="endereço" class="col-md-4 col-form-label text-md-end">{{ __('CEP') }}</label>
 
                             <div class="col-md-6">
                                 <input id="endereço" type="text" class="form-control @error('endereço') is-invalid @enderror" name="endereço" value="{{ old('endereço') }}" required autocomplete="name" autofocus>
@@ -116,7 +116,7 @@
                         </div>
 
 
-
+                        
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
