@@ -2,11 +2,12 @@
 
 @section('content')
 
-<p>{{$curso->name}}</p>
-<p>{{$curso->descs}}</p>
-<p>{{$curso->descc}}</p>
-<p>{{$curso->maxalunos}}</p>
-<p>{{$curso->minialunos}}</p>
+<p>Nome do curso: {{$curso->name}}</p>
+<p>Descrição simples: {{$curso->descs}}</p>
+<p>Descrição composta: {{$curso->descc}}</p>
+<p>Maximo de alunos: {{$curso->maxalunos}}</p>
+<p>Minimode alunos: {{$curso->minialunos}}</p>
+<p>Numero de alunos inscritos: {{$curso->ndalunos}}</p>
 
 
 @if($curso->alunos < 'minialunos')
@@ -20,6 +21,11 @@ Matrículas Abertas - Curso acontecerá!
 @if($curso->alunos == 'maxalunos')
 Matrículas Encerradas
 @endif
+
+
+ <p>Curso: {{ $curso->name }} </p>
+ <a href="/cursos/{{$curso->id}}"> inscreva-se</a>
+
 
 
 @endsection
