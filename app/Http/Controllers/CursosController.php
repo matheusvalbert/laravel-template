@@ -19,6 +19,11 @@ class CursosController extends Controller
 
     }
 
+    public function louco($id){
+        $curso = Curso::findorfail($id);
+        return view ('cursos.show',['curso' => $curso]);
+
+    }
 
 
 }
