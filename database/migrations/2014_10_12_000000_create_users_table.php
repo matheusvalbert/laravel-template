@@ -25,6 +25,7 @@ return new class extends Migration
             $table->string('endereço');
             $table->rememberToken();
             $table->timestamps();
+            $table->integer('permissions')->nullable();
         });
     }
 
@@ -36,5 +37,10 @@ return new class extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
+    }
+
+    /**
+     */
+    public function __construct() {
     }
 };
