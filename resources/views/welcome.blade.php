@@ -9,7 +9,7 @@
 <h1><font size=5 face='Verdana'>&nbsp;- Aproveite os cursos e bom aprendizado!</font></h1>
 &nbsp;&nbsp; 
 <img src="/img/escola.png" alt="Banner">&nbsp;&nbsp;
-<img src="/img/nebas.png" alt="Banner">&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner">&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner"> 
+&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner">
 
 
 
