@@ -6,8 +6,8 @@
 <p>Descrição simples: {{$curso->descs}}</p>
 <p>Descrição composta: {{$curso->descc}}</p>
 <p>Maximo de alunos: {{$curso->maxalunos}}</p>
-<p>Minimode alunos: {{$curso->minialunos}}</p>
-<p>Numero de alunos inscritos: {{$curso->ndalunos}}</p>
+<p>Minimo de alunos: {{$curso->minialunos}}</p>
+
 
 
 @if($curso->alunos < 'minialunos')
@@ -23,9 +23,9 @@ Matrículas Encerradas
 @endif
 
 
- <p>Curso: {{ $curso->name }} </p>
- <a href="/cursos/{{$curso->id}}"> inscreva-se</a>
 
+<a href="/zas/{{$curso->id}}"><br />inscreva-se</a>
+ 
 
 
 @endsection

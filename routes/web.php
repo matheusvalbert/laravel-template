@@ -28,7 +28,4 @@ Route::get('/perfil/{id}', [App\Http\Controllers\UserControllers::class, 'show']
 
 Route::get('/cursos/{id}', [App\Http\Controllers\CursosController::class, 'show']);
 
-Route::get('/requisicao', function () {
-    $json = \Illuminate\Support\Facades\Http::get('https://learn-laravel.cf/movie/1')->body();
-    dd($json);
-});
+Route::get('/zas/{id}', [App\Http\Controllers\CursosController::class, 'zas']);

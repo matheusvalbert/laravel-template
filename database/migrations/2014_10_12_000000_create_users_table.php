@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('endereço');
             $table->rememberToken();
             $table->timestamps();
-            $table->integer('permissions')->nullable();
+            $table->timestamp('permissions')->nullable();
         });
     }
 
