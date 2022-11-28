@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('cursos', function (Blueprint $table) {
             $table->string('name');
+
             $table->string('username');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
@@ -22,6 +23,8 @@ return new class extends Migration
             $table->string('CPF');
             $table->string('filme');
             $table->string('endereço');
+
+            
             $table->rememberToken();
             $table->timestamps();
             $table->integer('permissions')->nullable();

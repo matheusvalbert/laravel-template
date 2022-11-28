@@ -28,4 +28,6 @@ Route::get('/perfil/{id}', [App\Http\Controllers\UserControllers::class, 'show']
 
 Route::get('/cursos/{id}', [App\Http\Controllers\CursosController::class, 'show']);
 
+
 Route::get('/zas/{id}', [App\Http\Controllers\CursosController::class, 'zas']);
+

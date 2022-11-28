@@ -19,9 +19,11 @@ class CursosController extends Controller
 
     }
 
+
     public function zas($id){
         $curso = Curso::findorfail($id);
         return view ('cursos.zas',['curso' => $curso]);
+
 
     }
 
