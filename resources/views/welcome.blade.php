@@ -3,16 +3,16 @@
 @section('content')
 
 
-<h1><font size=20 face='Nunito'><span style='color:blue;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝗢𝘀 𝗺𝗲𝗹𝗵𝗼𝗿𝗲𝘀 𝗰𝘂𝗿𝘀𝗼𝘀 𝗱𝗲 𝗣𝗛𝗣, 𝗟𝗮𝗿𝗮𝘃𝗲𝗹 𝗲 𝗔𝘀𝘀𝗲𝗺𝗯𝗹𝘆</span></font></h1>
-<h1><font size=6 face='Corbel'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nós possuimos os melhores professores que ja estão no mercado a mais de 15 anos.</span></font></h1>
-<h1><font size=6 face='Corbel'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ensinamos as melhores maneiras de se programar nessas linguagens  </font></h1>
-<h1><font size=6 face='Corbel'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aproveite os cursos e bom aprendizado!</font></h1>
+<h1><font size=20 face='Nunito'><span style='color:blue;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝗢 𝗺𝗲𝗹𝗵𝗼𝗿𝗲 𝗟𝗮𝗿𝗮𝘃𝗲𝗹</span></font></h1>
+<h1><font size=6 face='Corbel'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nós possuimos os melhores professores que ja estão no mercado a mais de 15 anos.</span></font></h1>
+<h1><font size=6 face='Corbel'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ensinamos as melhores maneiras de se programar nessas linguagens  </font></h1>
+<h1><font size=6 face='Corbel'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aproveite os cursos e bom aprendizado!</font></h1>
 
 <body style='background-color:lightslategrey'>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<img src="/img/assembly.png" alt="Banner">&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner">
+<img src="/img/imagemteste.png" alt="Banner">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/nebas.png" alt="Banner">
 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
