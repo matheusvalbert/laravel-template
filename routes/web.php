@@ -31,3 +31,4 @@ Route::get('/cursos/{id}', [App\Http\Controllers\CursosController::class, 'show'
 
 Route::get('/zas/{id}', [App\Http\Controllers\CursosController::class, 'zas']);
 
+Route::get('/control', [App\Http\Controllers\CursosController::class, 'control']);
