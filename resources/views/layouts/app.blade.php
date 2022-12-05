@@ -40,6 +40,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/cursos">Cursos</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contato</a>
+                        </li>
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
