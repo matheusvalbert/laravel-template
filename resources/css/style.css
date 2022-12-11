@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #04044c;
+    --secondary-bg-color: #494a7d;
+    --primary-color: #fff;
+    --secondary-color: #25cc88;
+    --text-color: #8789af;
+    --border-color: #20235b;
+  }
+  
+  #checkout-page {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+  }
+  
+ 

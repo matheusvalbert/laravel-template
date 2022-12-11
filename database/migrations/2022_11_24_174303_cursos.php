@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('descs');
-            $table->string('descc');
+            $table->text('descc');
             $table->integer('maxalunos');
             $table->integer('minialunos');
             $table->integer('status');

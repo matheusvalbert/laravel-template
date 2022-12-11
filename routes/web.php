@@ -28,15 +28,16 @@ Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+
 Route::get('/cursos/{id}', [App\Http\Controllers\CursosController::class, 'show']);
 
 Route::get('/perfil/{id}', [App\Http\Controllers\UserControllers::class, 'show']);
-
-Route::get('/cursos/{id}', [App\Http\Controllers\CursosController::class, 'show']);
-
 
 Route::get('/zas/{id}', [App\Http\Controllers\CursosController::class, 'zas']);
 
 Route::get('/contact', [App\Http\Controllers\CursosController::class, 'contact']);
 
+
 Route::get('/aluno', [App\Http\Controllers\UserController::class, 'index']);
+
+Route::get('/cursos/join/{id}',[App\Http\Controllers\CursosController::class, 'join'])->middleware('auth');
