@@ -30,6 +30,9 @@ class RegisterController extends Controller
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::HOME;
+    protected function redirecTto(){
+        return ('/aluno');
+        }
 
     /**
      * Create a new controller instance.
@@ -72,6 +75,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'username' => $data['username'],
             'email' => $data['email'],
+            'permissions'=>2,
             'password' => Hash::make($data['password']),
             'CPF' => $data['CPF'],
             'filme' => $data['filme'],

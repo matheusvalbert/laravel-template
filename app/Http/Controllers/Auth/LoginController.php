@@ -6,6 +6,12 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
+use App\Models\User;
+
+use Illuminate\Support\Facades\Auth;
+
+use Illuminate\Http\Request;
+
 class LoginController extends Controller
 {
     /*
@@ -27,6 +33,15 @@ class LoginController extends Controller
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::HOME;
+    protected function redirectTo()
+    {
+        if( Auth()->user()->permissions == 1){
+            return ('/admin');
+        } 
+        elseif( Auth()->user()->permissions == 2 ){
+            return ('/aluno');
+        }
+    }
 
     /**
      * Create a new controller instance.
@@ -37,4 +52,5 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
 }

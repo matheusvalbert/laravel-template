@@ -6,9 +6,9 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
-                <h4>Hi User: {{ Auth::user()->name}}</h4>
+                <h4>Hi Admin: {{ Auth::user()->name}}</h4>
                 <hr>
-                PROFILE
+                DASHBOARD
 
                 <div class="card-body">
                     @if (session('status'))
