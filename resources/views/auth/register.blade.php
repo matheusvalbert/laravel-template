@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<body style='background-color:rgb(0, 0, 0)'>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
