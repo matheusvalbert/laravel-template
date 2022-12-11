@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>ROVENTINISTORE</title>
+    <title>ESCOLINHA DO XASTRE</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -21,8 +21,8 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    ROVENTINISTORE
+                <a class="navbar-brand" href="{{ url('/') }}"><body style='background-color:rgb(0, 0, 0)'>
+                    ESCOLINHA DO XASTRE
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -39,6 +39,9 @@
                         <!-- Authentication Links -->
                         <li class="nav-item">
                             <a class="nav-link" href="/cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contato</a>
                         </li>
                         @guest
                             @if (Route::has('login'))
@@ -63,6 +66,9 @@
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
+                                    </a>
+                                    <a class="dropdown-item" href="/perfil/{{ Auth::user()->id }}" >
+                                        Meu perfil
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
