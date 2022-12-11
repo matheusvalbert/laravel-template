@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+@csrf
 <p>{{ $user->name }}</p>
 <p>{{ $user->username }}</p>
 <p>{{ $user->email }}</p>

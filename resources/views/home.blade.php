@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+@csrf
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -13,6 +14,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    
 
                     {{ __('You are logged in!') }}
                 </div>
