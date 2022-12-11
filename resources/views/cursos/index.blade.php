@@ -4,7 +4,7 @@
 
 
 @foreach ($cursos as $curso)
- <p><font size=20 face='Nunito'>Curso: {{ $curso->name }} </p>
+ <p><font size=10 face='Nunito'>Curso: {{ $curso->name }} </p>
  <a href="/cursos/{{$curso->id}}"> Saiba mais</a>
 
 @endforeach

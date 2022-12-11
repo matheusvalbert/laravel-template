@@ -13,16 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('cursos', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('descs');
-            $table->text('descc');
-            $table->integer('maxalunos');
-            $table->integer('minialunos');
-            $table->integer('status');
-            $table->string('img');
-            $table->rememberToken();
+        Schema::create('curso_user', function (Blueprint $table) {
+            $table->foreignId('curso_id')->constrained()->onDelete('cascade');;
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');;
+            $table->float('nota')->nullable();
             $table->timestamps();
         });
     }

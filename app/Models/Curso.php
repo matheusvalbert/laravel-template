@@ -9,5 +9,8 @@ class Curso extends Model
 {
     protected $table = 'cursos'; 
     use HasFactory;
+    public function users(){
+        return $this->belongsTomany('App\Models\User');
+    }
 
 }

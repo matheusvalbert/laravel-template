@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<p>{{ $user->name }}</p>
-<p>{{ $user->username }}</p>
-<p>{{ $user->email }}</p>
-<p>{{ $user->CPF }}</p>
-<p>{{ $user->filme }}</p>
-<p>{{ $user->endereço }}</p>
-<p>{{ $user->created_at }}</p>
-<p>{{ $user->updated_at }}</p>
+<p><span style='color:rgb(255, 255, 255);'>Nome do usuario: {{ $user->name }}</p>
+<p><span style='color:rgb(255, 255, 255);'>Nickname:{{ $user->username }}</p>
+<p><span style='color:rgb(255, 255, 255);'>e-mail: {{ $user->email }}</p>
+<p><span style='color:rgb(255, 255, 255);'>CPF: {{ $user->CPF }}</p>
+<p><span style='color:rgb(255, 255, 255);'>Filme favorito: {{ $user->filme }}</p>
+<p><span style='color:rgb(255, 255, 255);'>Endereço: {{ $user->endereço }}</p>
+<p><span style='color:rgb(255, 255, 255);'>{{ $user->created_at }}</p>
+<p><span style='color:rgb(255, 255, 255);'>{{ $user->updated_at }}</p>
 
 @if($user->permissions == 1)
 Aluno
