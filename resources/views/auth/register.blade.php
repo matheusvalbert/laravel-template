@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <?php $address=getAddress() ?>
 <div class="container">
     <div class="row justify-content-center">

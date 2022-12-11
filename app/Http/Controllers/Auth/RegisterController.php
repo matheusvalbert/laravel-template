@@ -109,7 +109,7 @@ function register(Request $request){
     ]);
     $user = new User();
         $user->name = $request->name;
-        $user->username = $request->UsuarioOficial;
+        $user->username = $request->username;
         $user->email = $request->email;
         $user->cep = $request->cep;
         $user->rua = $request->rua;
